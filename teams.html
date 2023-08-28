@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card-slider teams page</title>
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+     <link rel="stylesheet" href="teams.css">
+</head>
+<body>
+    
+    </div>
+    <section class="swiper mySwiper">
+        <h1 class="heading">Our Team</h1>
+        <h2 class="sub-heading">To be the company our customers want us to be, it takes an eclectic group of passionate operators. Get to know the people leading the way at Focus.</h2>
+        <div class="swiper-wrapper">
+            <div class="card swiper-slide">
+            <div class="card_image">
+                <img src="person3.jpg" alt="card image">
+            </div>
+            <div class="card_content">
+                <span class="card_title">CEO & Founder</span>
+                <span class="card_name">Jim Kojo Appiah </span>
+                <p class="card_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum.</p>
+                <button class="card_btn">View More</button>
+            </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="card_image">
+                    <img src="person2.webp" alt="card image">
+                </div>
+                <div class="card_content">
+                    <span class="card_title">Head of Tech and Investments</span>
+                    <span class="card_name">Cornelius Boateng</span>
+                    <p class="card_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum.</p>
+                    <button class="card_btn">View More</button>
+                </div>
+                </div>
+            
+            <div class="card swiper-slide">
+                <div class="card_image">
+                    <img src="person1.webp" alt="card image">
+                </div>
+                <div class="card_content">
+                    <span class="card_title">Head of HR Development</span>
+                    <span class="card_name">Daisy Azagba</span>
+                    <p class="card_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum.</p>
+                    <button class="card_btn">View More</button>
+                </div>
+                </div>
+        
+            <div class="card swiper-slide">
+                <div class="card_image">
+                    <img src="Person4.jpg" alt="card image">
+                </div>
+                <div class="card_content">
+                    <span class="card_title">Associate Agricultural Scientist</span>
+                    <span class="card_name">Nyamekye Victoria</span>
+                    <p class="card_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum.</p>
+                    <button class="card_btn">View More</button>
+                </div>
+                </div>
+        </div>
+        <div class="news">
+        <h3>Want to work with us in an inclusive and uplifting environment? Subscribe to our newsletter to learn about the latest job postings and internships.</h3>
+        
+        </div>
+
+        <form action="action_page.php">
+            <div class="container" style="background-color:white">
+              <input type="text" placeholder="Email address" name="mail" required>
+        
+            </div>
+          
+            <div class="container">
+              <input type="submit" value="Subscribe">
+            </div>
+          </form>
+
+    </section>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+     <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+
+    </script>
+</body>
+</html>
